@@ -1,6 +1,6 @@
 // Store our API endpoint as queryUrl and tectonicplatesUrl
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var tectonicplatesUrl = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_plates.json"
+var tectonicplatesUrl = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json"
 
 // Perform a GET request to the query URL
 d3.json(queryUrl).then(function (data) {
